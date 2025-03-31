@@ -38,6 +38,7 @@ body {
     background-color: #fff;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .reset_button {
@@ -67,11 +68,9 @@ body {
 
 .cell.winning {
     background-color: grey;
-    transition: background-color 0.3s ease;
 }
 
-.cell.winning.transition {
+.cell.transition {
     background-color: white;
-    timeline-scope: 3s;
-    /* Change to white when the transition class is added */
+    transition: background-color 3s ease;
 }
